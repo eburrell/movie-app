@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-actor = Actor.new({first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock"})
+# actor = Actor.new({first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock"})
 
-actor.save
+# actor.save
+
+movie = Movie.new(title: "Training Day", year: 2001, plot: "Police drama about a veteran officer who escorts a rookie on his first day with the LAPD's tough inner-city narcotics unit.")
+
+movie.save
