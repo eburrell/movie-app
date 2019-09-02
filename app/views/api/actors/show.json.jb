@@ -1,0 +1,13 @@
+{
+  id: @actor.id,
+  first_name: @actor.first_name,
+  last_name: @actor.last_name,
+  known_for: @actor.known_for
+  # updated_at: @contact.updated_at,
+
+  # modified: {
+  #   updated_at: @contact.friendly_updated_at,
+  #   full_name: @contact.full_name,
+  #   full_number: @contact.full_number
+  #   }
+}
