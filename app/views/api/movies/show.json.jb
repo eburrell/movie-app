@@ -1,1 +1,1 @@
-  rebder partial: "movie.json.jb", locals: { movie: @movie}
+  render partial: "movie.json.jb", locals: { movie: @movie}
