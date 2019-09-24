@@ -1,0 +1,9 @@
+<h1>Show Actor</h1>
+<h2><% @actor.name %></h2>
+  <h3>FirstName: <%= @actor.first_name %> </h1>
+  <h3>LastName: <%= @actor.last_name %> </h1>
+  <h3>KnownFor: <%= @actor.known_for %> </h1>
+  <h3>Movie_id: <%= @actor.movie_id %> </h1>
+
+ <a href="/actors/<%= @actor.id %>/edit">Edit</a>
+

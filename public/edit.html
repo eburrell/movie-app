@@ -1,0 +1,26 @@
+<h1>Edit Actors</h1>
+<form action="/actors/<%= @actor.id %>" method="post">
+  <input type="hidden" name="_method" value="patch" />
+  <div>
+    First Name:
+    <input type="text" name="First Name" value="<%= @actor.first_name %>" />
+  </div>
+  <div>
+    Last Name:
+    <input type="text" name="Last Name" value="<%= @actor.last_name %>" />
+  </div>
+  <div>
+    Known For:
+    <input type="number" name="Known For" value="<%= @actor.known_for %>" />
+  </div>
+  <div>
+    Movie_id:
+    <input type="number" name="Movie_id" value="<%= @actor.movie_id %>" />
+  </div>
+
+  <input type="submit" value="Edit Actor" />
+
+  <a href="/actors">Index</a>
+
+  <a href="/actors/<%= @actor.id %>" data-method="delete">Delete</a>
+</form>
