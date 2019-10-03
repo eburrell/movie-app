@@ -26,7 +26,7 @@ class Api::MoviesController < ApplicationController
   def show
     @movie = Movie.find(params[:id])
     render "show.html.erb"
-  end
+  endw
 
   def update
     @movie = Movie.find(params[:id])

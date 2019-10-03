@@ -3,7 +3,5 @@
   title: movie.title,
   year: movie.year,
   plot: movie.plot,
-  director: movie.director,
-  english: movie.english,
-  genres: movie.genres
+  director: movie.director
 }
